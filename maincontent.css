@@ -22,11 +22,12 @@
 
 
 .main-content * {
-	color: white !important;
+	color: white;
 }
 
 .main-content-box {
 	gap: 10px;
 	margin: 2em;
+	padding: 10px;
 	background-color: rgba(0, 0, 0, 0.7);
 }

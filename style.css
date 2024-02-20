@@ -15,6 +15,10 @@ html {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
+strong {
+	color: rgba(53, 125, 255, 1) !important;
+}
+
 .container {
 	width: 1000px;
 	max-width: 100%;
