@@ -1,0 +1,32 @@
+.main-content {
+	position: absolute;
+	height: calc(70vh - 4em);
+	width: 100%;
+	box-shadow: inset 20px 20px 50px rgba(0, 0, 0, 1);
+} 
+
+#main-content-view {
+	background-image: url('photos/background/3.jpg');
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	max-width: 100%;
+    animation: change-background 20s infinite;
+}
+
+@keyframes change-background {
+    0% { background-image: url('photos/background/1.jpg'); }
+    33% { background-image: url('photos/background/2.jpg'); }
+    66% { background-image: url('photos/background/3.jpg'); }
+}
+
+
+.main-content * {
+	color: white !important;
+}
+
+.main-content-box {
+	gap: 10px;
+	margin: 2em;
+	background-color: rgba(0, 0, 0, 0.7);
+}
