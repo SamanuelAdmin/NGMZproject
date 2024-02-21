@@ -1,0 +1,28 @@
+.content {
+	margin-top: 2em;
+	padding: 1em;
+	font-size: 22px;
+	margin-bottom: 3em;
+}
+
+.content .content-title {
+	font-size: 26px;
+	padding: 10px;
+}
+
+.content .production-list {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content div .service-list-image {
+	width: 40%;
+}
+
+.content .market {
+
+}
+
+.content .market product {
+	
+}

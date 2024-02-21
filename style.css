@@ -1,9 +1,13 @@
+/* CHANGING BASIC FUNCTIONS */
+
 ::selection {
 	background: #990000; /* Safari */
 }
 ::-moz-selection {
 	background: #990000; /* Firefox */
 }
+
+/* CHANGES FOR ALL ELEMENTS AND FULL PAGE */
 
 * {
 	margin: 0;
@@ -12,27 +16,85 @@
 }
 
 html {
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(127, 127, 127, 0.2);
 }
+
+
+/* CHANGING BASIC ELEMENTS AND ADD NEW STYLISH TYPES */
 
 strong {
 	color: rgba(53, 125, 255, 1) !important;
 }
 
-noted {
-	color: orange !important;
-}
 
 a {
 	color: rgba(197, 0, 5, 1);
 	cursor: pointer;
 }
 
+
+/* FOR NOTIFICATIONS  */
+
+noted {
+	color: orange !important;
+}
+
+noted-in-text {
+	color: rgba(43, 56, 80, 1);
+}
+
+added {
+	color: rgba(115, 115, 95, 1);
+}
+
+
+
+/* CUSTOM BR INDENTATIONS  */
+
+indentation {
+	width: 100%;
+	padding-right: 100%;
+	border-bottom: 1px rgba(127, 127, 127, 0.7) solid;
+}
+
+br1 {
+	width: 100%;
+	padding: 20px;
+}
+
+/* CUSTOM LI ELEMENTS  */
+
+.li-small-marker {
+	list-style-type: none;
+}
+
+.li-small-marker::before {
+    content: "•";
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.li-arrow-marker {
+	list-style-type: none;
+}
+
+.li-arrow-marker::before {
+    content: "➤";
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+/* MAIN CONTAINER */
+
 .container {
 	width: 1100px;
 	max-width: 100%;
 	margin: 0 auto;
 }
+
+
+/* HEADER PART */
 
 header {
 	color: white;	
@@ -70,6 +132,10 @@ header {
 	font-size: 32px;
 }
 
+
+
+
+/* FOOTER PART */
 
 .container-footer {
 	width: 900px;
