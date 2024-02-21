@@ -1,5 +1,5 @@
 .main-content {
-	position: absolute;
+/*	position: absolute;*/
 	height: calc(70vh - 4em);
 	width: 100%;
 	box-shadow: inset 20px 20px 50px rgba(0, 0, 0, 1);
@@ -12,6 +12,9 @@
 	opacity: 0.7;
 	max-width: 100%;
     animation: change-background 20s infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @keyframes change-background {
@@ -26,8 +29,39 @@
 }
 
 .main-content-box {
-	gap: 10px;
-	margin: 2em;
-	padding: 10px;
+	gap: 15px;
+	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-content-box-title {
+	font-size: 42px;
+	padding: 20px;
+}
+
+.main-content-box li {
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.main-content-box .button-container {
+	margin-top: 20px !important;
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+.main-content-box .also-about-us-button {
+	margin-right: 20px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: bold;
+	border: 1px white solid;
+	border-radius: 10px;
+}
+
+.main-content-box .also-about-us-button:hover {
+	background-color: rgba(127, 127, 127, 0.2);
+	cursor: pointer;
 }
