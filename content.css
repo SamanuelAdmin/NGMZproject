@@ -20,9 +20,53 @@
 }
 
 .content .market {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.content .market h2 {
+	text-align: center;
 }
 
 .content .market product {
-	
+	margin: 1em;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content .market product:hover {
+	border-radius: 10px;
+	background-color: rgba(127, 127, 127, 0.15);
+	cursor: pointer;
+}
+
+.content .market product .product-photo {
+	width: 30%;
+	height: 30%;
+}
+
+.content .market product .product-info {
+	width: 50%;
+	margin: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.content .market product .product-info h4 {
+	padding-bottom: 20px;
+}
+
+.content .market product .product-info p {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 18px;
+}
+
+.content .market product .product-info p::before {
+	content: " ";
+	padding-left: 10px;
 }
