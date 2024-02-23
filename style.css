@@ -28,11 +28,10 @@ strong {
 
 
 a {
+	text-decoration: none !important;
 	color: rgba(197, 0, 5, 1);
 	cursor: pointer;
 }
-
-
 
 
 /* FOR NOTIFICATIONS  */
@@ -90,9 +89,9 @@ br1 {
 /* MAIN CONTAINER */
 
 .container {
-	width: 1100px;
+	width: 1100px !important;
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0 auto !important;
 }
 
 
@@ -130,11 +129,17 @@ header {
 	gap: 15px;
 }
 
+/*.menu-container {
+	border: 1px red solid;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}*/
+
 .header .menu-icon {
 	font-size: 32px;
 }
-
-
 
 
 /* FOOTER PART */
@@ -221,5 +226,3 @@ header {
 .footer-h3 {
 	font-size: 28px;
 }
-
-
