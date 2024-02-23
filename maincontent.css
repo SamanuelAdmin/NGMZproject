@@ -13,7 +13,7 @@
 	max-width: 100%;
     animation: change-background 20s infinite;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 

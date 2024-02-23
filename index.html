@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="content.css">
 	<link rel="stylesheet" type="text/css" href="layouts.css">
 	<link rel="stylesheet" type="text/css" href="mainnavmenu.css">
+	<!-- ADAPTIVE -->
+	<link rel="stylesheet" href="adaptive.css">
 	<!-- FOR LOGOS -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<!-- FOR FONTS -->
@@ -23,23 +25,20 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
-<body class="roboto-regular">
+<body>
 	<header id="main-page">
 		<div class="container header">
 			<h1 class="logo">OOO "NGMZ"</h1>
 
-			<div class="info">
-				<div class="empty"></div>
-				<div class="contacts"></div>
-			</div>
+			<div class="contacts"></div>
 
-			<div class="main-navigation-menu container" id="navigationMenu">
-				<a href="#main-page" class="element">Main page</a>
-				<a href="#products" class="element">Products</a>
-				<a href="" class="element">About us</a>
-			</div>
-
-			<i class='menu-icon bx bx-menu' onclick="showMenu();"></i>
+			<div class='menu-icon bx bx-menu' onclick="showMenu();">
+				<div class="main-navigation-menu container" id="navigationMenu">
+					<a href="#main-page" class="element">Main page</a>
+					<a href="#products" class="element">Products</a>
+					<a href="" class="element">About us</a>
+				</div>
+			</d>
 		</div>
 	</header>
 
@@ -113,13 +112,12 @@
 				</div>
 			</product>
 			<product>
+				<img src="photos/products/product1.png" class="product-photo">
 				<div class="product-info">
 					<h4>Trailing devices UPP and UPZ</h4>
 					<p>Designed to connect the hoist rope to the tunnelling bucket during the driving and deepening of vertical shafts in the mining industry.</p>
 					<p>UPP devices are designed for yarn ropes, and UPZ devices are for ropes of closed construction.</p>
 				</div>
-
-				<img src="photos/products/product1.png" class="product-photo">
 			</product>
 			<product class="set-back">
 				<img src="photos/products/product1.png" class="product-photo">

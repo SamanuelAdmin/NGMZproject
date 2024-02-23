@@ -36,7 +36,9 @@
 	margin: 1em;
 	width: 80%;
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .content .market product:hover {
@@ -46,6 +48,7 @@
 }
 
 .content .market .set-back {
+	flex-direction: row;
 	background-color: rgba(0, 0, 0, 0.04);
 }
 

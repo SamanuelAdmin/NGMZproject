@@ -1,20 +1,17 @@
 .main-navigation-menu {
 	display: none;
 	background-color: rgba(60, 60, 60, 0.75);
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px;
 	gap: 10px;
-	width: 15em !important;
+	max-width: 200px;
 	justify-content: space-around;
 	border-radius: 0px 0px 10px 10px;
 	flex-direction: column;
-	margin-left: 30%;
 	height: auto;
 	z-index: 1;
 	position: absolute;
-	top: 4em;
-	right: calc((100% - 1100px) / 2);
+	top: 48px;
+	right: 0;
 } 
 
 .main-navigation-menu .element {
